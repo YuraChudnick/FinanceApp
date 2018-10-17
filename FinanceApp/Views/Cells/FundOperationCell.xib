@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="FundOperationCell" customModule="FinanceApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C8j-Pd-H4G">
+                        <rect key="frame" x="20" y="13.5" width="43" height="43"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="symbol42" translatesAutoresizingMaskIntoConstraints="NO" id="Bh8-6Q-ggT">
+                                <rect key="frame" x="14" y="14" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="JPk-4v-Ngz"/>
+                                    <constraint firstAttribute="height" constant="15" id="bTK-EM-bap"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Bh8-6Q-ggT" firstAttribute="centerY" secondItem="C8j-Pd-H4G" secondAttribute="centerY" id="EWm-L8-tqi"/>
+                            <constraint firstAttribute="height" constant="43" id="VXg-Lf-C9r"/>
+                            <constraint firstAttribute="width" constant="43" id="Z2F-ZO-hqY"/>
+                            <constraint firstItem="Bh8-6Q-ggT" firstAttribute="centerX" secondItem="C8j-Pd-H4G" secondAttribute="centerX" id="vc3-W4-8VA"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nN2-t7-Iy4">
+                        <rect key="frame" x="347.5" y="34.5" width="6.5" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="16"/>
+                        <color key="textColor" red="0.87450980392156863" green="0.16078431372549018" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndg-Qw-ujc">
+                        <rect key="frame" x="78" y="16.5" width="8" height="16.5"/>
+                        <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVU-G7-187">
+                        <rect key="frame" x="78" y="38" width="8" height="14.5"/>
+                        <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="12"/>
+                        <color key="textColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="C8j-Pd-H4G" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="7Gh-b0-Wsf"/>
+                    <constraint firstItem="zVU-G7-187" firstAttribute="leading" secondItem="ndg-Qw-ujc" secondAttribute="leading" id="IWw-9g-6uv"/>
+                    <constraint firstItem="nN2-t7-Iy4" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="-5" id="If8-2y-SqK"/>
+                    <constraint firstItem="ndg-Qw-ujc" firstAttribute="width" secondItem="nN2-t7-Iy4" secondAttribute="width" multiplier="1.2" id="Ipc-Ra-I6i"/>
+                    <constraint firstItem="zVU-G7-187" firstAttribute="top" secondItem="ndg-Qw-ujc" secondAttribute="bottom" constant="5" id="IqL-gH-yhs"/>
+                    <constraint firstItem="ndg-Qw-ujc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-10" id="TSE-C8-8yd"/>
+                    <constraint firstItem="zVU-G7-187" firstAttribute="width" secondItem="ndg-Qw-ujc" secondAttribute="width" id="ZY1-td-drP"/>
+                    <constraint firstItem="C8j-Pd-H4G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="f3w-6I-Ngw"/>
+                    <constraint firstItem="ndg-Qw-ujc" firstAttribute="leading" secondItem="C8j-Pd-H4G" secondAttribute="trailing" constant="15" id="f4U-oZ-z9B"/>
+                    <constraint firstItem="nN2-t7-Iy4" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="n2Z-Oc-4tZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="circleView" destination="C8j-Pd-H4G" id="vmk-hi-Skf"/>
+                <outlet property="dateLabel" destination="zVU-G7-187" id="lDs-Zk-Ybu"/>
+                <outlet property="nameLabel" destination="ndg-Qw-ujc" id="Veo-5i-Jil"/>
+                <outlet property="priceLabel" destination="nN2-t7-Iy4" id="QGg-RK-zWc"/>
+                <outlet property="upDownImageView" destination="Bh8-6Q-ggT" id="Sqf-M9-nIt"/>
+            </connections>
+            <point key="canvasLocation" x="61.5" y="83"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="symbol42" width="15" height="15"/>
+    </resources>
+</document>

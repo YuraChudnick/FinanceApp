@@ -7,21 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54F545F59E180F928E02AB10 /* Pods_FinanceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB0DE2152F4279040E6B1E8 /* Pods_FinanceApp.framework */; };
+		DE192D97212417150011F23E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE192D96212417150011F23E /* Array+Extension.swift */; };
+		DE192D9921241D040011F23E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE192D9821241D040011F23E /* UIView+Extension.swift */; };
+		DE192D9B2125787E0011F23E /* RestApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE192D9A2125787E0011F23E /* RestApiProtocol.swift */; };
 		DE37D733212196E50024F385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D732212196E50024F385 /* AppDelegate.swift */; };
-		DE37D735212196E60024F385 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D734212196E60024F385 /* ViewController.swift */; };
+		DE37D735212196E60024F385 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D734212196E60024F385 /* MainVC.swift */; };
 		DE37D738212196E60024F385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE37D736212196E60024F385 /* Main.storyboard */; };
 		DE37D73A212196E70024F385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE37D739212196E70024F385 /* Assets.xcassets */; };
 		DE37D73D212196E70024F385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE37D73B212196E70024F385 /* LaunchScreen.storyboard */; };
+		DE37D74D21219A0B0024F385 /* FinanceAppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D74C21219A0B0024F385 /* FinanceAppRouter.swift */; };
+		DE37D75121219FF60024F385 /* MaxDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D75021219FF60024F385 /* MaxDate.swift */; };
+		DE37D7532121A0590024F385 /* RestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D7522121A0590024F385 /* RestApi.swift */; };
+		DE37D7552121A2F70024F385 /* PortfolioValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D7542121A2F70024F385 /* PortfolioValue.swift */; };
+		DE37D7572121A43A0024F385 /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D7562121A43A0024F385 /* Portfolio.swift */; };
+		DE37D7592121A6850024F385 /* FundAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D7582121A6850024F385 /* FundAmount.swift */; };
+		DE37D75B2121AA0E0024F385 /* FundOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D75A2121AA0E0024F385 /* FundOperation.swift */; };
+		DE37D75D2121AAC80024F385 /* Disclaimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D75C2121AAC80024F385 /* Disclaimer.swift */; };
+		DE37D7602121ADAB0024F385 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D75F2121ADAB0024F385 /* BackgroundView.swift */; };
+		DE37D7622121B8540024F385 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE37D7612121B7BF0024F385 /* SF-Pro-Text-Semibold.otf */; };
+		DE37D7632121B8580024F385 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE37D74A2121994D0024F385 /* Roboto-Light.ttf */; };
+		DE37D7642121B85D0024F385 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE37D74B2121994D0024F385 /* Roboto-Thin.ttf */; };
+		DE37D7652121B8610024F385 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE37D7492121994D0024F385 /* Roboto-Regular.ttf */; };
+		DE37D76B2121BF400024F385 /* FundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D7692121BF400024F385 /* FundCell.swift */; };
+		DE37D76C2121BF400024F385 /* FundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE37D76A2121BF400024F385 /* FundCell.xib */; };
+		DE37D76E2121DE430024F385 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D76D2121DE430024F385 /* DetailVC.swift */; };
+		DE37D7702121DEE80024F385 /* FundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D76F2121DEE80024F385 /* FundsView.swift */; };
+		DE37D7732121EF8B0024F385 /* Formatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D7722121EF8B0024F385 /* Formatter+Extension.swift */; };
+		DE37D7752121EFA50024F385 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D7742121EFA50024F385 /* Double+Extension.swift */; };
+		DE37D779212219250024F385 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D778212219250024F385 /* Utils.swift */; };
+		DE37D77C21228D190024F385 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D77B21228D190024F385 /* CALayer+Extension.swift */; };
+		DE37D7832122B9A00024F385 /* FundOperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D7812122B9A00024F385 /* FundOperationCell.swift */; };
+		DE37D7842122B9A00024F385 /* FundOperationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE37D7822122B9A00024F385 /* FundOperationCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AE82377FC1964A6624626DF /* Pods-FinanceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinanceApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinanceApp/Pods-FinanceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DE192D96212417150011F23E /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		DE192D9821241D040011F23E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		DE192D9A2125787E0011F23E /* RestApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiProtocol.swift; sourceTree = "<group>"; };
 		DE37D72F212196E50024F385 /* FinanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE37D732212196E50024F385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE37D734212196E60024F385 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE37D734212196E60024F385 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		DE37D737212196E60024F385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE37D739212196E70024F385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE37D73C212196E70024F385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE37D73E212196E70024F385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE37D7492121994D0024F385 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		DE37D74A2121994D0024F385 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		DE37D74B2121994D0024F385 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		DE37D74C21219A0B0024F385 /* FinanceAppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAppRouter.swift; sourceTree = "<group>"; };
+		DE37D75021219FF60024F385 /* MaxDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDate.swift; sourceTree = "<group>"; };
+		DE37D7522121A0590024F385 /* RestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApi.swift; sourceTree = "<group>"; };
+		DE37D7542121A2F70024F385 /* PortfolioValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioValue.swift; sourceTree = "<group>"; };
+		DE37D7562121A43A0024F385 /* Portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio.swift; sourceTree = "<group>"; };
+		DE37D7582121A6850024F385 /* FundAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundAmount.swift; sourceTree = "<group>"; };
+		DE37D75A2121AA0E0024F385 /* FundOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundOperation.swift; sourceTree = "<group>"; };
+		DE37D75C2121AAC80024F385 /* Disclaimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disclaimer.swift; sourceTree = "<group>"; };
+		DE37D75F2121ADAB0024F385 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		DE37D7612121B7BF0024F385 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		DE37D7692121BF400024F385 /* FundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundCell.swift; sourceTree = "<group>"; };
+		DE37D76A2121BF400024F385 /* FundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FundCell.xib; sourceTree = "<group>"; };
+		DE37D76D2121DE430024F385 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		DE37D76F2121DEE80024F385 /* FundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundsView.swift; sourceTree = "<group>"; };
+		DE37D7722121EF8B0024F385 /* Formatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+Extension.swift"; sourceTree = "<group>"; };
+		DE37D7742121EFA50024F385 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		DE37D778212219250024F385 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DE37D77B21228D190024F385 /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		DE37D7812122B9A00024F385 /* FundOperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundOperationCell.swift; sourceTree = "<group>"; };
+		DE37D7822122B9A00024F385 /* FundOperationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FundOperationCell.xib; sourceTree = "<group>"; };
+		EFB0DE2152F4279040E6B1E8 /* Pods_FinanceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinanceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3659150FFD04A2070E6FF4 /* Pods-FinanceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinanceApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinanceApp/Pods-FinanceApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +85,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F545F59E180F928E02AB10 /* Pods_FinanceApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		425CE976A63EC1ACEF2E47B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AE82377FC1964A6624626DF /* Pods-FinanceApp.debug.xcconfig */,
+				FE3659150FFD04A2070E6FF4 /* Pods-FinanceApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DE37D726212196E50024F385 = {
 			isa = PBXGroup;
 			children = (
 				DE37D731212196E50024F385 /* FinanceApp */,
 				DE37D730212196E50024F385 /* Products */,
+				425CE976A63EC1ACEF2E47B7 /* Pods */,
+				E6EF77ECC1B9BDAEBCDE83BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +122,128 @@
 		DE37D731212196E50024F385 /* FinanceApp */ = {
 			isa = PBXGroup;
 			children = (
-				DE37D732212196E50024F385 /* AppDelegate.swift */,
-				DE37D734212196E60024F385 /* ViewController.swift */,
-				DE37D736212196E60024F385 /* Main.storyboard */,
-				DE37D739212196E70024F385 /* Assets.xcassets */,
-				DE37D73B212196E70024F385 /* LaunchScreen.storyboard */,
-				DE37D73E212196E70024F385 /* Info.plist */,
+				DE37D7712121EF650024F385 /* Extension */,
+				DE37D75E2121AD970024F385 /* Views */,
+				DE37D74F21219FDC0024F385 /* Model */,
+				DE37D74E21219A330024F385 /* Helpers */,
+				DE37D747212198020024F385 /* Resources */,
+				DE37D746212197F70024F385 /* Storyboards */,
+				DE37D745212197E10024F385 /* ViewControllers */,
+				DE37D744212197CD0024F385 /* Application */,
 			);
 			path = FinanceApp;
+			sourceTree = "<group>";
+		};
+		DE37D744212197CD0024F385 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DE37D73E212196E70024F385 /* Info.plist */,
+				DE37D732212196E50024F385 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DE37D745212197E10024F385 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE37D734212196E60024F385 /* MainVC.swift */,
+				DE37D76D2121DE430024F385 /* DetailVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DE37D746212197F70024F385 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DE37D736212196E60024F385 /* Main.storyboard */,
+				DE37D73B212196E70024F385 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DE37D747212198020024F385 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE37D7482121991C0024F385 /* Fonts */,
+				DE37D739212196E70024F385 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE37D7482121991C0024F385 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DE37D74A2121994D0024F385 /* Roboto-Light.ttf */,
+				DE37D7492121994D0024F385 /* Roboto-Regular.ttf */,
+				DE37D7612121B7BF0024F385 /* SF-Pro-Text-Semibold.otf */,
+				DE37D74B2121994D0024F385 /* Roboto-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DE37D74E21219A330024F385 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DE37D74C21219A0B0024F385 /* FinanceAppRouter.swift */,
+				DE37D7522121A0590024F385 /* RestApi.swift */,
+				DE192D9A2125787E0011F23E /* RestApiProtocol.swift */,
+				DE37D778212219250024F385 /* Utils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DE37D74F21219FDC0024F385 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE37D75C2121AAC80024F385 /* Disclaimer.swift */,
+				DE37D7582121A6850024F385 /* FundAmount.swift */,
+				DE37D75A2121AA0E0024F385 /* FundOperation.swift */,
+				DE37D75021219FF60024F385 /* MaxDate.swift */,
+				DE37D7562121A43A0024F385 /* Portfolio.swift */,
+				DE37D7542121A2F70024F385 /* PortfolioValue.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE37D75E2121AD970024F385 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE37D75F2121ADAB0024F385 /* BackgroundView.swift */,
+				DE37D7662121BF040024F385 /* Cells */,
+				DE37D76F2121DEE80024F385 /* FundsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE37D7662121BF040024F385 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DE37D7692121BF400024F385 /* FundCell.swift */,
+				DE37D76A2121BF400024F385 /* FundCell.xib */,
+				DE37D7812122B9A00024F385 /* FundOperationCell.swift */,
+				DE37D7822122B9A00024F385 /* FundOperationCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DE37D7712121EF650024F385 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DE192D96212417150011F23E /* Array+Extension.swift */,
+				DE37D77B21228D190024F385 /* CALayer+Extension.swift */,
+				DE37D7742121EFA50024F385 /* Double+Extension.swift */,
+				DE37D7722121EF8B0024F385 /* Formatter+Extension.swift */,
+				DE192D9821241D040011F23E /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E6EF77ECC1B9BDAEBCDE83BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFB0DE2152F4279040E6B1E8 /* Pods_FinanceApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE37D741212196E70024F385 /* Build configuration list for PBXNativeTarget "FinanceApp" */;
 			buildPhases = (
+				11064D0988AA883A67658AFD /* [CP] Check Pods Manifest.lock */,
 				DE37D72B212196E50024F385 /* Sources */,
 				DE37D72C212196E50024F385 /* Frameworks */,
 				DE37D72D212196E50024F385 /* Resources */,
+				962244A56A7C3740E70BD680 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +306,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE37D7652121B8610024F385 /* Roboto-Regular.ttf in Resources */,
+				DE37D7642121B85D0024F385 /* Roboto-Thin.ttf in Resources */,
+				DE37D7842122B9A00024F385 /* FundOperationCell.xib in Resources */,
+				DE37D76C2121BF400024F385 /* FundCell.xib in Resources */,
+				DE37D7632121B8580024F385 /* Roboto-Light.ttf in Resources */,
+				DE37D7622121B8540024F385 /* SF-Pro-Text-Semibold.otf in Resources */,
 				DE37D73D212196E70024F385 /* LaunchScreen.storyboard in Resources */,
 				DE37D73A212196E70024F385 /* Assets.xcassets in Resources */,
 				DE37D738212196E60024F385 /* Main.storyboard in Resources */,
@@ -130,12 +320,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11064D0988AA883A67658AFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinanceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		962244A56A7C3740E70BD680 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FinanceApp/Pods-FinanceApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AKMaskField/AKMaskField.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AKMaskField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinanceApp/Pods-FinanceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE37D72B212196E50024F385 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE37D735212196E60024F385 /* ViewController.swift in Sources */,
+				DE37D75B2121AA0E0024F385 /* FundOperation.swift in Sources */,
+				DE37D7702121DEE80024F385 /* FundsView.swift in Sources */,
+				DE37D7552121A2F70024F385 /* PortfolioValue.swift in Sources */,
+				DE37D76E2121DE430024F385 /* DetailVC.swift in Sources */,
+				DE192D9B2125787E0011F23E /* RestApiProtocol.swift in Sources */,
+				DE37D7752121EFA50024F385 /* Double+Extension.swift in Sources */,
+				DE37D7602121ADAB0024F385 /* BackgroundView.swift in Sources */,
+				DE37D75D2121AAC80024F385 /* Disclaimer.swift in Sources */,
+				DE37D7532121A0590024F385 /* RestApi.swift in Sources */,
+				DE37D75121219FF60024F385 /* MaxDate.swift in Sources */,
+				DE37D779212219250024F385 /* Utils.swift in Sources */,
+				DE37D7572121A43A0024F385 /* Portfolio.swift in Sources */,
+				DE192D97212417150011F23E /* Array+Extension.swift in Sources */,
+				DE37D7832122B9A00024F385 /* FundOperationCell.swift in Sources */,
+				DE37D77C21228D190024F385 /* CALayer+Extension.swift in Sources */,
+				DE37D7592121A6850024F385 /* FundAmount.swift in Sources */,
+				DE192D9921241D040011F23E /* UIView+Extension.swift in Sources */,
+				DE37D7732121EF8B0024F385 /* Formatter+Extension.swift in Sources */,
+				DE37D735212196E60024F385 /* MainVC.swift in Sources */,
+				DE37D74D21219A0B0024F385 /* FinanceAppRouter.swift in Sources */,
+				DE37D76B2121BF400024F385 /* FundCell.swift in Sources */,
 				DE37D733212196E50024F385 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,37 +535,43 @@
 		};
 		DE37D742212196E70024F385 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE82377FC1964A6624626DF /* Pods-FinanceApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VWAQ64T25E;
-				INFOPLIST_FILE = FinanceApp/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/FinanceApp/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yura.FinanceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DE37D743212196E70024F385 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3659150FFD04A2070E6FF4 /* Pods-FinanceApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VWAQ64T25E;
-				INFOPLIST_FILE = FinanceApp/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/FinanceApp/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yura.FinanceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
